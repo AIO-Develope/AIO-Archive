@@ -50,8 +50,8 @@ Enter the description: Description of this Archive
 A new folder 'the archive id' was created in 'youre archive folder' with the message.json file.
 ```
 4. Now you need to put youre archive as a .zip file in the folder you created earlier. (the folder is in youre archive folder and is named by the id)
-
-5. Now you can access the post by sending the id per dm.
+6. Run the bot with ```python main.py```
+7. Now you can access the post by sending the id per dm.
 
 <img src="https://github.com/AIO-Develope/AIO-Archive/assets/69240351/97ff720a-fa16-4fef-8f7f-7b7d254d13bb" width="40%" height="40%"/>
 
