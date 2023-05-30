@@ -11,7 +11,7 @@
     </div>
 </h1>
 
-
+This project is a Discord bot that facilitates the retrieval and download of files based on specific codes sent via direct messages. It uses a web server to serve the files and provides users with download links, titles, descriptions, and optional thumbnail images.
 
 # Example
 <img src="https://github.com/AIO-Develope/AIO-Archive/assets/69240351/97ff720a-fa16-4fef-8f7f-7b7d254d13bb" width="40%" height="40%"/>
