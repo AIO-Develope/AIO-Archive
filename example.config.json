@@ -1,0 +1,6 @@
+{
+    "token": "youre token",
+    "prefix": "!",
+    "webserver": "the domain or ip to youre webserver",
+    "archive-path": "./archive"
+}
