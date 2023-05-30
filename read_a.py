@@ -61,6 +61,19 @@ else:
 
 # Create a new JSON file to store the sorted folder data
 output_file_path = './database.json'
+
+# Check if the output file already exists
+if not os.path.isfile(output_file_path):
+    # Create an empty dictionary to store the folder data
+    empty_data = {}
+
+    # Write the empty dictionary to the output file
+    with open(output_file_path, 'w') as output_file:
+        json.dump(empty_data, output_file)
+
+    print("Created empty database file:", output_file_path)
+
+# Open the output file for writing the sorted folder data
 with open(output_file_path, 'w') as output_file:
     json.dump(sorted_folder_data, output_file, indent=4)
 
