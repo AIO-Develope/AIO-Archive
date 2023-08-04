@@ -27,12 +27,14 @@ pip install -r requirements.txt
 ```
 
 Now rename ```example.config.json``` to config.json and change the informations to youre desire.
+If you want to use the ```HTTP``` protocol for your download links, set ssl in the config to false.
 
 ```
 {
     "token": "youre token",
     "prefix": "!",
     "webserver": "the domain or ip to youre webserver",
+    "ssl": true,
     "archive-path": "./archive"
 }
 ```
