@@ -2,5 +2,6 @@
     "token": "youre token",
     "prefix": "!",
     "webserver": "the domain or ip to youre webserver",
+    "ssl": true/false,
     "archive-path": "./archive"
 }
