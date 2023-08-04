@@ -13,6 +13,7 @@ token = config['token']
 prefix = config['prefix']
 webserver = config['webserver']
 archive_path = config['archive-path']
+ssl = config['ssl']
 
 # Initialize the Discord Bot object
 intents = discord.Intents.default()
@@ -75,7 +76,8 @@ async def on_message(message):
                             embed = discord.Embed(title=title, color=discord.Color.green())
 
                         # Create the response text with the download link
-                        download_link = f"[Click Here](https://{webserver}/downloads/{code}/{zip_file})"
+                        protocol = "https" if ssl else "http"
+                        download_link = f"[Click Here]({protocol}://{webserver}/downloads/{code}/{zip_file})"
                         embed.add_field(name="Download", value=download_link, inline=False)
                         embed.add_field(name="Description", value=description, inline=False)
 
