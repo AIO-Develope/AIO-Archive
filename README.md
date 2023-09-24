@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/Python-3.10.4-blue" align="center"/>
     <img src="https://img.shields.io/badge/discord.py-2.1.1-orange" align="center"/>
     <img src="https://img.shields.io/badge/Flask-2.0.1-yellow" align="center"/>
-    <img src="https://img.shields.io/badge/Developing-Active-brightgreen" align="center"/>
+    <img src="https://img.shields.io/badge/Developing-Moved-brightgreen" align="center"/>
     <img src="https://img.shields.io/badge/Version-1.1-green" align="center"/>
     </div>
 </h1>
